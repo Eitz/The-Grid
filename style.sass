@@ -1,0 +1,21 @@
+*, *:before, *:after
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+.grid
+	width: 1350px
+	margin: 0 auto
+	&::after
+		content: ""
+		display: table
+		clear: both
+
+@for $i from 1 through 10
+	.g-#{$i}
+		width: #{135 * $i}px
+		float: left
+		padding-left: 10px
+		padding-right: 10px
+	.g-off-#{$i}
+		margin-left: #{135*$i}px

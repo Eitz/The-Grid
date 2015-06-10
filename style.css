@@ -1,0 +1,104 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.grid {
+  width: 1350px;
+  margin: 0 auto; }
+  .grid::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.g-1 {
+  width: 135px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-1 {
+  margin-left: 135px; }
+
+.g-2 {
+  width: 270px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-2 {
+  margin-left: 270px; }
+
+.g-3 {
+  width: 405px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-3 {
+  margin-left: 405px; }
+
+.g-4 {
+  width: 540px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-4 {
+  margin-left: 540px; }
+
+.g-5 {
+  width: 675px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-5 {
+  margin-left: 675px; }
+
+.g-6 {
+  width: 810px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-6 {
+  margin-left: 810px; }
+
+.g-7 {
+  width: 945px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-7 {
+  margin-left: 945px; }
+
+.g-8 {
+  width: 1080px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-8 {
+  margin-left: 1080px; }
+
+.g-9 {
+  width: 1215px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-9 {
+  margin-left: 1215px; }
+
+.g-10 {
+  width: 1350px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.g-off-10 {
+  margin-left: 1350px; }
+
+/*# sourceMappingURL=style.css.map */
